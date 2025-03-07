@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff7e0;
+}
+
+header {
+  background-color:#fff7e0;
+  color: #7b0909;
+  text-align: center;
+  padding: 1rem 0 ;
+}
+
+.banner__content{
+    width: 80%;
+}
+
+.banner h1{
+    font-size: 3rem;
+    border-bottom: 1rem
+}
+
+.banner p{
+ font-size: 1.2rem;
+ border-bottom: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color:#7b0909;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+
+nav a:hover{
+
+}
