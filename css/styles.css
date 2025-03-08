@@ -40,7 +40,7 @@ nav a:hover {
 
 /* estilização das seções da página */
 
-main{
+main {
   width: 80%;
   margin: 2rem auto;
 }
@@ -67,13 +67,13 @@ main{
   margin-bottom: 1rem;
 }
 
-.preco{
+.preco {
   font-weight: bold;
   color: #7b0909;
   margin-bottom: 1rem;
 }
 
-.adicionar{
+.adicionar {
   background-color: #c19853;
   color: #fff;
   border: none;
@@ -83,29 +83,14 @@ main{
   transition: background-color 0.3s ease;
 }
 
-.adicionar:hover{
+.adicionar:hover {
   background-color: rgba(29, 185, 84, 0.8);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
 
 /* estilo de responsividade */
 @media (min-width: 768px) {
