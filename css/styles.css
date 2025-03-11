@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Itim;
   background-color: #fff7e0;
 }
 
@@ -15,6 +15,17 @@ header {
 .header__navigation{
   display: flex;
   align-items:center ;
+}
+
+.cardapio{
+  color: #7b0909;
+  font-size: -webkit-xxx-large;
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  border-block-end-color: #7b0909;
 }
 
 .banner h1 {
@@ -48,6 +59,7 @@ nav a:hover {
 .dropdown__content {
   display: none;
   position: absolute;
+  text-align: start;
   background-color: #c19853;
   min-width: 160px;
   z-index: 1;
@@ -72,8 +84,6 @@ nav a:hover {
 }
 
 
-
-
 /* estilização das seções da página */
 
 main {
@@ -85,8 +95,13 @@ main {
   margin-bottom: 2rem;
 }
 
+h2{
+  color: #7b0909;
+}
+
 .produto {
   background-color: #fff7e0;
+  color: #7b0909;
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;

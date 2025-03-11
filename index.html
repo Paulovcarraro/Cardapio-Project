@@ -13,6 +13,10 @@
       media="screen"
       href="./css/styles.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="banner">
@@ -23,21 +27,38 @@
         <nav class="header__navigation">
           <a href="">Nossa História</a>
           <a href="">Promoções</a>
-           <div class="dropdown">
+          <div class="dropdown">
             <a href="#" class="droplist">Cardápio</a>
             <div class="dropdown__content">
               <a href="#Massas">Massas</a>
-              <a href="">Pizzas</a>
+              <a href="#Pizzas">Pizzas</a>
               <a href="">Bibidas</a>
               <a href="">Sobremesas</a>
             </div>
-           </div>
+          </div>
           <a href="">Contato</a>
-          <a href="">Localização</a>
+          <div class="dropdown">
+            <a href="#" class="droplist">Localização</a>
+            <div class="dropdown__content">
+              <a href="">Copacabana</a>
+              <a href="">Curitiba</a>
+              <a href="">São Paulo</a>
+              <a href="">Balneário Camboriú</a>
+            </div>
+          </div>
+          <a href="#" class="carrinho-btn">
+            <span class="icon">&#128722;</span> Carrinho
+          </a>
         </nav>
       </div>
     </header>
+    
     <main>
+      
+<h1 class="cardapio">Cardápio</h1>
+
+<hr>
+
       <section id="Massas" class="categoria">
         <h2>Massas</h2>
         <div class="produto">
@@ -47,7 +68,7 @@
           />
           <h3>Fettuccini ao forno</h3>
           <p>Fettuccini ao forno, com presunto e molho branco.</p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$49,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -62,7 +83,7 @@
             Lasagna ao molho bologna, com queijo mussarela e um um toque de
             molho branco.
           </p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$55,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -74,7 +95,7 @@
           />
           <h3>Gnocchi à bolognesa</h3>
           <p>Gnocchi ao molho bologna.</p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$49,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -89,7 +110,7 @@
             Gnocchi ao molho de quatro queijos (parmesão, provolone, requeijão e
             gorgonzola), gratinado com queijo mussarela.
           </p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$49,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -104,7 +125,7 @@
             Talharim ao molho carbonara (molho branco com bacon, gema de ovo e
             queijo).
           </p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$59,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -113,12 +134,88 @@
           <img src="./Assets/Caneloni-de-ricota.jpg" alt="Caneloni de ricota" />
           <h3>Caneloni de ricota</h3>
           <p>Caneloni de ricota ao molho branco.</p>
-          <span class="preco">R$15,00</span>
+          <span class="preco">R$38,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
       </section>
 
-      <section id="pizzas" class="categoria"></section>
+      <!-- Seção Pizzas -->
+
+      <section id="Pizzas" class="categoria">
+        <h2>Pizzas</h2>
+        <div class="produto">
+          <img
+            src="/Assets/Mussarela.jpg"
+            alt="Mussarela"
+          />
+          <h3>Mussarela</h3>
+          <p>
+            Massa fina coberta com molho de tomate, queijo muzzarela e orégano.
+          </p>
+          <span class="preco">R$49,00</span>
+          <button class="adicionar">Adicionar</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="produto">
+          <img
+            src="/Assets/Pizza+Calabresa.jpg"
+            alt="Calabresa"
+          />
+          <h3>Calabresa</h3>
+          <p>
+            Massa fina de pizza coberta com queijo muzzarela e finas fatias de
+            linguiça calabresa frita.
+          </p>
+          <span class="preco">R$55,00</span>
+          <button class="adicionar">Adicionar</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="produto">
+          <img
+            src="/Assets/Pizza+de+Portuguesa.jpeg"
+            alt="Portuguesa"
+          />
+          <h3>Portuguesa</h3>
+          <p>
+            Massa fina coberta com muzzarela, tomate, pimentão, cebola,
+            champignon, ovo cozido, azeitona, presunto e linguiça calabresa.
+          </p>
+          <span class="preco">R$49,00</span>
+          <button class="adicionar">Adicionar</button>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="produto">
+          <img
+            src="./Assets/4-queijos.jpg"
+            alt="4 queijos"
+          />
+          <h3>4 queijos</h3>
+          <p>
+            Massa fina coberta com muzzarela, parmesão, gorgonzola e queijo tipo catupiry.
+          </p>
+          <span class="preco">R$49,00</span>
+          <button class="adicionar">Adicionar</button>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="produto">
+          <img
+            src="/Assets/Matgarita.jpg"
+            alt="Marguerita"
+          />
+          <h3>Marguerita</h3>
+          <p>
+            Massa fina coberta com muzzarela, finas fatias de tomate, folhas de
+            manjericão fresco e orégano.
+          </p>
+          <span class="preco">R$59,00</span>
+          <button class="adicionar">Adicionar</button>
+        </div>
+
+      </section>
       <section id="Bebidas" class="categoria"></section>
       <section id="sobremesas" class="categoria"></section>
     </main>
