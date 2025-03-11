@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cardápio Online</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="" type="image/x-icon" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -20,8 +22,17 @@
 
         <nav class="header__navigation">
           <a href="">Nossa História</a>
-          <a href="">Contatos</a>
           <a href="">Promoções</a>
+           <div class="dropdown">
+            <a href="#" class="droplist">Cardápio</a>
+            <div class="dropdown__content">
+              <a href="#Massas">Massas</a>
+              <a href="">Pizzas</a>
+              <a href="">Bibidas</a>
+              <a href="">Sobremesas</a>
+            </div>
+           </div>
+          <a href="">Contato</a>
           <a href="">Localização</a>
         </nav>
       </div>
@@ -42,16 +53,25 @@
 
         <!-- Produto 2 -->
         <div class="produto">
-          <img src="./Assets/Lasagna-a-bolognesa.jpg" alt="Lasagna à bolognesa" />
+          <img
+            src="./Assets/Lasagna-a-bolognesa.jpg"
+            alt="Lasagna à bolognesa"
+          />
           <h3>Lasagna à bolognesa</h3>
-          <p>Lasagna ao molho bologna, com queijo mussarela e um um toque de molho branco.</p>
+          <p>
+            Lasagna ao molho bologna, com queijo mussarela e um um toque de
+            molho branco.
+          </p>
           <span class="preco">R$15,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
         <!-- Produto 3 -->
         <div class="produto">
-          <img src="./Assets/Gnocchi-a-bolognesa.jpg" alt="Gnocchi à bolognesa" />
+          <img
+            src="./Assets/Gnocchi-a-bolognesa.jpg"
+            alt="Gnocchi à bolognesa"
+          />
           <h3>Gnocchi à bolognesa</h3>
           <p>Gnocchi ao molho bologna.</p>
           <span class="preco">R$15,00</span>
@@ -60,31 +80,42 @@
 
         <!-- Produto 4 -->
         <div class="produto">
-          <img src="" alt="Fettuccini ao forno" />
-          <h3>Fettuccini ao forno</h3>
-          <p>Fettuccini ao forno, com presunto e molho branco.</p>
+          <img
+            src="./Assets/Gnocchi-aos-4-queijos.jpg"
+            alt="Gnocchi aos 4 queijos"
+          />
+          <h3>Gnocchi aos 4 queijos</h3>
+          <p>
+            Gnocchi ao molho de quatro queijos (parmesão, provolone, requeijão e
+            gorgonzola), gratinado com queijo mussarela.
+          </p>
           <span class="preco">R$15,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
         <!-- Produto 5 -->
         <div class="produto">
-          <img src="" alt="Fettuccini ao forno" />
-          <h3>Fettuccini ao forno</h3>
-          <p>Fettuccini ao forno, com presunto e molho branco.</p>
+          <img
+            src="/Assets/Talharim-a-carbonara.jpg"
+            alt="Talharim à carbonara"
+          />
+          <h3>Talharim à carbonara</h3>
+          <p>
+            Talharim ao molho carbonara (molho branco com bacon, gema de ovo e
+            queijo).
+          </p>
           <span class="preco">R$15,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
         <!-- Produto 6 -->
         <div class="produto">
-          <img src="" alt="Fettuccini ao forno" />
-          <h3>Fettuccini ao forno</h3>
-          <p>Fettuccini ao forno, com presunto e molho branco.</p>
+          <img src="./Assets/Caneloni-de-ricota.jpg" alt="Caneloni de ricota" />
+          <h3>Caneloni de ricota</h3>
+          <p>Caneloni de ricota ao molho branco.</p>
           <span class="preco">R$15,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
-        
       </section>
 
       <section id="pizzas" class="categoria"></section>

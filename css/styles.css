@@ -12,8 +12,9 @@ header {
   padding: 1rem 0;
 }
 
-.banner__content {
-  width: 80%;
+.header__navigation{
+  display: flex;
+  align-items:center ;
 }
 
 .banner h1 {
@@ -37,6 +38,41 @@ nav a {
 nav a:hover {
   color: burlywood;
 }
+
+/* Estilo do menu dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: #c19853;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown__content a {
+  color: #fff7e0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown__content a:hover {
+  color:burlywood;
+}
+
+.dropdown:hover .dropdown__content {
+  display: block;
+}
+
+
+
 
 /* estilização das seções da página */
 
@@ -99,7 +135,7 @@ footer {
   }
   .categoria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
   }
 }
