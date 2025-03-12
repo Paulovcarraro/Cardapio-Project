@@ -12,20 +12,21 @@ header {
   padding: 1rem 0;
 }
 
-.header__navigation{
+.header__navigation {
   display: flex;
-  align-items:center ;
+  align-items: center;
+  justify-content: center;
 }
 
-.cardapio{
+.cardapio {
   color: #7b0909;
   font-size: -webkit-xxx-large;
   display: flex;
   justify-content: center;
 }
 
-hr{
-  border-block-end-color: #7b0909;
+hr {
+  border-color: #7b0909;
 }
 
 .banner h1 {
@@ -76,15 +77,14 @@ nav a:hover {
 }
 
 .dropdown__content a:hover {
-  color:burlywood;
+  color: burlywood;
 }
 
 .dropdown:hover .dropdown__content {
   display: block;
 }
 
-
-/* estilização das seções da página */
+/* Estilização das seções da página */
 
 main {
   width: 80%;
@@ -95,8 +95,13 @@ main {
   margin-bottom: 2rem;
 }
 
-h2{
+h2 {
   color: #7b0909;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  margin: 40px;
 }
 
 .produto {
@@ -128,6 +133,7 @@ h2{
   background-color: #c19853;
   color: #fff;
   border: none;
+  width: 100px;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   cursor: pointer;
@@ -143,7 +149,7 @@ footer {
   padding: 1rem 0;
 }
 
-/* estilo de responsividade */
+/* Estilo de responsividade */
 @media (min-width: 768px) {
   main {
     width: 60%;
