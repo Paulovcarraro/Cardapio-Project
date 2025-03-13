@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #fff7e0;
+  background-color: burlywood;
   color: #7b0909;
   text-align: center;
   padding: 1rem 0;
@@ -48,7 +48,27 @@ nav a {
 }
 
 nav a:hover {
-  color: burlywood;
+  color: wheat;
+}
+
+.carrinho__btn{
+  background-color: #c19853;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.menu-section {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 0.5s ease-out;
+  transform: translateY(20px);
+}
+
+/* Quando a seção estiver visível */
+.menu-section.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Estilo do menu dropdown */
@@ -145,6 +165,8 @@ h2 {
 }
 
 footer {
+  background-color: burlywood;
+  color: #7b0909;
   text-align: center;
   padding: 1rem 0;
 }
