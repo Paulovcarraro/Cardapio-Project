@@ -47,7 +47,7 @@
               <a href="">Balneário Camboriú</a>
             </div>
           </div>
-          <a href="#" class="carrinho__btn">
+          <a href="cart.html" class="carrinho__btn">
             <span class="icon">&#128722;</span> Carrinho
           </a>
         </nav>
@@ -387,7 +387,19 @@
         </div>
       </section>
     </main>
-
+    
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modal-nome"></h2>
+    <p>Preço unitário: <span id="modal-preco"></span></p>
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" value="1" min="1">
+    <p>Total: <span id="modal-total"></span></p>
+    <button id="confirmar-adicao">Adicionar ao Carrinho</button>
+  </div>
+</div>
     <footer>
       <p>&copy; 2025 Forno & Fatorria.</p>
     </footer>
