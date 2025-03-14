@@ -57,20 +57,6 @@ nav a:hover {
   width: 100px;
 }
 
-.menu-section {
-  display: none;
-  opacity: 0;
-  transition: opacity 1s ease-out, transform 0.5s ease-out;
-  transform: translateY(20px);
-}
-
-/* Quando a seção estiver visível */
-.menu-section.visible {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* Estilo do menu dropdown */
 
 .dropdown {
@@ -103,6 +89,7 @@ nav a:hover {
 .dropdown:hover .dropdown__content {
   display: block;
 }
+
 
 /* Estilização das seções da página */
 
@@ -161,10 +148,11 @@ h2 {
 }
 
 .adicionar:hover {
-  background-color: rgba(29, 185, 84, 0.8);
+  background-color: #388E3C;
 }
 
 /* Estilização do modal de compra */
+
 .modal {
   display: none;
   position: fixed;
@@ -173,16 +161,17 @@ h2 {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5); 
   justify-content: center;
   align-items: center;
 }
 
-.modal__content {
-  background: white;
+.modal-content {
+  background: #fff;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+  width: 300px; 
 }
 
 .close {
@@ -191,18 +180,31 @@ h2 {
   cursor: pointer;
 }
 
-.modal__quantity {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin: 10px 0;
+
+/* Estilo da área de quantidade */
+
+#quantidade {
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0 10px;
 }
 
-.modal__quantity button {
-  padding: 5px 10px;
-  font-size: 18px;
+#confirmar-adicao {
+  background-color: #4CAF50; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
+
+#confirmar-adicao:hover {
+  background-color: #388E3C; /
+}
+
 
 /* Estilização do footer da página */
 

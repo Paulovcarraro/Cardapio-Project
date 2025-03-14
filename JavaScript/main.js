@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   
-    // Adicionar ao carrinho (próxima etapa)
+    // Adicionar ao carrinho 
     confirmarAdicao.addEventListener("click", () => {
       const quantidade = parseInt(quantidadeInput.value);
       const cartItem = {

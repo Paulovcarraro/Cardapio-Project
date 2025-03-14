@@ -46,7 +46,7 @@
               <a href="">Balneário Camboriú</a>
             </div>
           </div>
-          <a href="#" class="carrinho__btn">
+          <a href="cart.html" class="carrinho__btn">
             <span class="icon">&#128722;</span> Carrinho
           </a>
         </nav>
@@ -61,16 +61,13 @@
       <h2>Águas</h2>
       <section id="Massas" class="categoria">
         <div class="produto">
-          <img
-            src="/Assets/4-queijos.jpg"
-            alt="Fettuccini ao forno"
-          />
-          <h3>Fettuccini ao forno</h3>
+          <img src="/Assets/4-queijos.jpg" alt="Fettuccini ao forno" />
+          <h3>Água sem gás 500ml</h3>
           <p>
             Fettuccini ao forno, recheado com presunto e coberto com molho
             branco.
           </p>
-          <span class="preco">R$49,00</span>
+          <span class="preco">R$3,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -80,12 +77,12 @@
             src="./Assets/Lasagna-a-bolognesa.jpg"
             alt="Lasagna à bolognesa"
           />
-          <h3>Lasagna à bolognesa</h3>
+          <h3>Água com gás 500ml</h3>
           <p>
             Lasagna ao molho bologna, com queijo mussarela e um um toque de
             molho branco.
           </p>
-          <span class="preco">R$55,00</span>
+          <span class="preco">R$4,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -95,12 +92,12 @@
             src="./Assets/Gnocchi-a-bolognesa.jpg"
             alt="Gnocchi à bolognesa"
           />
-          <h3>Gnocchi à bolognesa</h3>
+          <h3>Água Tônica 350ml</h3>
           <p>
             Massa leve de batata, servida com molho bolognesa e finalizada com
             queijo parmesão ralado na hora.
           </p>
-          <span class="preco">R$49,00</span>
+          <span class="preco">R$5,00</span>
           <button class="adicionar">Adicionar</button>
         </div>
 
@@ -147,9 +144,24 @@
         </div>
       </section>
     </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <button class="close">&times;</button>
+        <h2 id="modal-nome"></h2>
+        <p>Preço unitário: <span id="modal-preco"></span></p>
+        <label for="quantidade">Quantidade</label>
+        <input type="number" id="quantidade" value="1" min="1" />
+        <p>Total:<span id="modal-total"></span></p>
+        <button id="confirmar-adicao">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+
     <footer>
       <p>&copy; 2025 Forno & Fatorria.</p>
     </footer>
+
     <script src="./JavaScript/main.js"></script>
   </body>
 </html>
