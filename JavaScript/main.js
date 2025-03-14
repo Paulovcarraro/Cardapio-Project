@@ -67,3 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+  document.addEventListener("DOMContentLoaded", () => {
+    const dropdowns = document.querySelectorAll(".dropdown");
+  
+    dropdowns.forEach((dropdown) => {
+      const trigger = dropdown.querySelector(".droplist");
+      const content = dropdown.querySelector(".dropdown__content");
+  
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        content.classList.toggle("show");
+      });
+    });
+  });
+  
