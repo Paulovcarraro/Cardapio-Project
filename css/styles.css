@@ -51,7 +51,7 @@ nav a:hover {
   color: wheat;
 }
 
-.carrinho__btn{
+.carrinho__btn {
   background-color: #c19853;
   border-radius: 8px;
   width: 100px;
@@ -89,7 +89,6 @@ nav a:hover {
 .dropdown:hover .dropdown__content {
   display: block;
 }
-
 
 /* Estilização das seções da página */
 
@@ -148,7 +147,35 @@ h2 {
 }
 
 .adicionar:hover {
-  background-color: #388E3C;
+  background-color: #388e3c;
+}
+
+/* Estilização da Seção Contatos */
+
+#Contato {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  background-color: #c19853;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.redes-sociais a:hover{
+  background-color: #388e3c;
+}
+
+#Contato p {
+  color: #7b0909;
+  font-size: 1.2rem;
+  border-bottom: 2rem;
+
 }
 
 /* Estilização do modal de compra */
@@ -161,7 +188,7 @@ h2 {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
 }
@@ -171,7 +198,7 @@ h2 {
   padding: 20px;
   border-radius: 8px;
   text-align: center;
-  width: 300px; 
+  width: 300px;
 }
 
 .close {
@@ -179,7 +206,6 @@ h2 {
   font-size: 24px;
   cursor: pointer;
 }
-
 
 /* Estilo da área de quantidade */
 
@@ -192,7 +218,7 @@ h2 {
 }
 
 #confirmar-adicao {
-  background-color: #4CAF50; 
+  background-color: #4caf50;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -202,9 +228,8 @@ h2 {
 }
 
 #confirmar-adicao:hover {
-  background-color: #388E3C; /
+  background-color: #388e3c;
 }
-
 
 /* Estilização do footer da página */
 
