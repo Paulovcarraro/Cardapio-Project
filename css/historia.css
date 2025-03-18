@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Itim;
-  background-color: #fff7e0;
+  background-image: url(/Assets/illustration-pizza-background.jpg);
 }
 
 header {
@@ -16,11 +16,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-hr {
-  border-color: #7b0909;
 }
 
 .banner h1 {
@@ -86,63 +81,46 @@ nav a:hover {
 
 /* Estilização das seções da página */
 
-main {
-  width: 80%;
-  margin: 2rem auto;
-}
-
-h1 {
-  color: #7b0909;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  border-bottom: 1rem;
-}
-
-.vantagens {
-  margin-bottom: 2rem;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 80px 0;
-}
-
-.content img {
-  width: 100%;
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff7e0;
   border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.content p {
+.historia__titulo {
+  text-align: center;
+  font-size: 2.5rem;
   color: #7b0909;
-  font-size: 1rem;
-  border-bottom: 2rem;
 }
 
-.pedido {
-  background-color: #c19853;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
-  width: 300px;
-  height: 40px;
-  margin: 40px 0;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.historia__content h2 {
+  color: #7b0909;
+  margin-top: 20px;
 }
 
-.pedido:hover {
-  background-color: #388e3c;
+.historia__content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.historia__content ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.historia__content ul li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
 /* Estilização da Seção Contatos */
 
 #Contatos {
+  color: #7b0909;
+  font-size: x-large;
   text-align: center;
   margin-top: 2rem;
 }
@@ -170,16 +148,6 @@ h1 {
 .redes-sociais a:hover {
   background-color: #388e3c;
 }
-
-#Contatos h2 {
-    color: #7b0909;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: xx-large;
-    margin: 40px;
-  }
-
 
 #Contatos p {
   color: #7b0909;
