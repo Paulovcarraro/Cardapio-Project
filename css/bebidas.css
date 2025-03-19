@@ -150,6 +150,50 @@ h2 {
   background-color: rgba(29, 185, 84, 0.8);
 }
 
+/* Estilização da Seção Contatos */
+
+#Contatos {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.redes-sociais{
+display: flex;
+justify-content: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  background-color: #c19853;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 200px;
+}
+
+.redes-sociais a:hover {
+  background-color: #388e3c;
+}
+
+#Contatos p {
+  color: #7b0909;
+  font-size: 1.2rem;
+  border-bottom: 2rem;
+}
+
+#Contatos img{
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilização do modal de compra */
+
 .modal {
   display: none;
   position: fixed;
